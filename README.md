@@ -42,4 +42,12 @@ O projeto visa desenvolver um Catálogo de Livros que permita:
 6. **Exibição de Resultados aos Usuários**
    - Implementação de opções de interação no console para exibir os livros de acordo com o interesse do usuário.
 
-## Tecnologias Utiliz
+## Como Rodar
+
+1. Clone este repositório.
+2. Abra o projeto em sua IDE favorita (como IntelliJ IDEA ou Eclipse).
+3. Configure as credenciais do banco de dados no arquivo `application.properties` ou `application.yml`.
+4. Execute a aplicação com o comando:
+
+   ```bash
+   mvn spring-boot:run
