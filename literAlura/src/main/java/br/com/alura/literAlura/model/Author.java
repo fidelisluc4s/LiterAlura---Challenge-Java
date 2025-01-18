@@ -16,7 +16,7 @@ public class Author {
     @Column(unique = true)
     private String name;
     private int yearBirth;
-    private int yearDeath;
+    private int deathYear;
 
     @OneToMany(mappedBy = "author" , cascade = CascadeType.ALL)
     private List<Book> books = new ArrayList<>();
